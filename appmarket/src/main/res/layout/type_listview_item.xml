@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/type_notice"
+        android:text="游戏"
+        android:textColor="@color/notice"
+        android:textSize="@dimen/text_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <dle.appmarket.View.MyGridView
+        android:id="@+id/type_grid"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="3"
+        android:gravity="center"
+        android:listSelector="@null"
+        android:background="#DCDCDC"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </dle.appmarket.View.MyGridView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FF21272B">
+
+    <!--android:color="#FF21272B" 水波颜色-->
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF00ced1" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/conner" />
+</ripple>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="240dp"
+              android:clickable="true"
+              android:background="#FFF"
+              android:layout_height="match_parent">
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/my_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:fitsSystemWindows="true"
+        android:clickable="true"
+        android:paddingTop="20dp"
+        app:headerLayout="@layout/drawerlayout_head"
+        app:menu="@menu/drawerlayout_menu">
+
+    </android.support.design.widget.NavigationView>
+
+</LinearLayout>

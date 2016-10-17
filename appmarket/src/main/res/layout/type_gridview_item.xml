@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/gride_item_layout"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_marginTop="3dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_marginTop="3dp"
+        android:id="@+id/type_grid_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <TextView
+        android:id="@+id/type_grid_text"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="游戏"/>
+
+</LinearLayout>
